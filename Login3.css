@@ -1,0 +1,19 @@
+.box
+{
+    border:1px solid black;
+    height:100%;
+    width: 100%;
+    background-color: #FAFAFA;
+
+}
+.box1
+{
+    border:1px solid black;
+    height:82%;
+    width:82%;
+    background-color: #FFFFFF;
+    margin-left: 8.5%;
+    margin-top:4%;
+   
+   
+}

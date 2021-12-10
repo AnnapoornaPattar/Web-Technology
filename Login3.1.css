@@ -1,0 +1,14 @@
+.box
+{
+    border:1px #00000029;
+    height:100%;
+    width: 100%;
+    background-color: #FAFAFA;
+
+}
+.box1
+{
+   border: 1px red;
+   height:75%;
+   width:75%;
+}

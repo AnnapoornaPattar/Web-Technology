@@ -1,0 +1,87 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box
+}
+body{
+    font-family: "Roboto";
+    background-color: #F6F8F9;
+}
+.box
+{
+    border:1px #FAFAFA;
+    border-color:#FAFAFA ;
+    height:100%;
+    width:100%;
+    float:center;
+
+}
+.box1
+{
+    border:1px#FFFFFF;
+    border-color: #FFFFFF;
+    background-color:#FFFFFF;
+    height:82%;
+    width:82%;
+    margin-top:4%;
+    margin-left:8.5%;
+    float:center;
+    box-shadow:1px 1px 1px 1px #00000029;
+}
+.login
+{
+    padding-top:3%;
+    color:#747474;
+    display:flex;
+    justify-content: center;
+
+}
+.emailbox
+{
+    padding-left:75px;
+    margin-left:40px;
+    box-shadow:0px 0px 0px 0px#00000034;
+}
+.password
+{
+    padding-left:75px;
+    margin-left:40px;
+    box-shadow:0px 0px 0px 0px#00000034;
+}
+.fa{
+    margin-left:-28px;
+    color:#909090;
+}
+.forgotpass
+ {
+     padding-left: 40px;
+ }
+ button
+        {
+    
+            background-color: #32BDD2;
+            color: white;
+            border:none;
+            border-radius: 20px;
+            margin: 10px;
+            width:120px;
+            height:40px;
+       
+        }
+        .button
+        {
+            padding-right: 200px;
+            padding-top: 20px;
+            padding-left: -0.5px;
+            margin-left:-1px;
+        }
+    
+#p
+{
+    cursor: pointer;
+}
+#q
+{
+    cursor: pointer;
+}

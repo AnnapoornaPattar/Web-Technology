@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Loginpage4</title>
+        <link rel="stylesheet" type="text/css" href="Loginpage4.css">
+    </head>
+    <body>
+        <script>
+            function init()
+            {
+                location.href="Loginpage5.html";
+            document.getElementById("p").style.cursor="pointer";
+            }
+        </script>
+        <div class="box">
+            <div class="box1">
+                <div class="forgotpass">
+                    <h1><b>Forgot password?</b></h1>
+                </div><br><br>
+                <p style="text-align: center;color:#747474">The link to reset your password will be sent to your </p>
+                <p style="text-align: center;color:#747474"> registered email.</p><br><br><br><br>
+
+                <div class="emaibox">
+                    <label><input type="email" placeholder="Email" style="width:350px; height:50px;border-radius:10px;color:#747474;margin-left: 450px;margin-top:20px"></label>
+                 </div>
+                 <img src="request-icons-07.png" alt="request" style="color:#BF574A;margin-left:450px;width:15px;height:15px">
+                        <span style="color:#BF574A">This is not a valid email</span><br>
+                        <img src="request-icons-07.png" alt="request" style="color:#BF574A;margin-left:450px;width:15px;height:15px">
+                        <span style="color:#BF574A">This email is not registered with us.</span><br>
+                 <br><br><br><br><br>
+
+                 <div class="button">
+                     <a href="Loginpage5.html">
+                        <button type="button" id="p" onclick="init()" style="color:#FFFFFF;margin-left:550px"  >CONTINUE</button>
+                      </a>
+                 </div>
+            </div>
+        </div>
+    </body>

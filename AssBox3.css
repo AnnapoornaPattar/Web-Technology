@@ -1,0 +1,13 @@
+.box1{
+border:1px solid black;
+height:200px;
+width:200px;
+float:right;
+}
+
+.box2{
+border:1px solid black;
+height:100px;
+width:100px;
+float:left;
+}

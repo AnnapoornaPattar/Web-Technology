@@ -1,0 +1,72 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Roboto";
+    background-color: #F6F8F9;
+}
+.box
+{
+    border:1px #FAFAFA;
+    border-color:#FAFAFA ;
+    height:100%;
+    width:100%;
+    float:center;
+    background-color: #00000065;
+    padding-top:10px;
+
+}
+.box1
+{
+    border:1px#F7F7F7;
+    border-color: #F7F7F7;
+    background-color:#FFFFFF;
+    height:550px;
+    width:1245px;
+    margin-top:100px;
+    margin-left:8.5%;
+    float:center;
+    box-shadow:1px 1px 1px 1px #00000029;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top:10px;
+}
+.forbox
+{
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;;
+    border:1px#F7F7F7;
+    border-color:#F7F7F7 ;
+    background-color:#F7F7F7 ;
+    height:100px;
+    width:1245px;
+    float:left;
+    margin-left:1px;
+    margin-top:-8px;
+    box-shadow:0px 0px 1px 1px #00000029;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top:5px;
+    
+}
+.forgotpass
+{
+    padding-top:3%;
+    color:#747474;
+    margin-left:500px;
+    display:flex;
+    justify-content:space-between
+
+}
+.text
+{
+    padding-left:40px;
+    padding-top:50px;
+}
+#p
+{
+    cursor: pointer;
+}

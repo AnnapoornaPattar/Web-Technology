@@ -1,0 +1,151 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    font-family: "Roboto";
+    background-color: #F6F8F9;
+}
+.box
+{
+    border:1px #FAFAFA;
+    border-color:#FAFAFA ;
+    height:130%;
+    width:100%;
+    float:center;
+    background-color: #00000065;
+
+}
+.box1
+{
+    border:1px#FDFDFD;;
+    border-color: #F6F8F9;
+    background-color:#FFFFFF;
+    height:80%;
+    width:80%;
+    margin-top:-850px;
+    margin-left:10%;
+    float:center;
+    box-shadow:1px 1px 1px 1px #00000029;
+    padding-top:5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box2
+{
+    
+    border:1px#F7F7F7;
+    border-color:#F7F7F7 ;
+    background-color:#FCFCFC ;
+    height:50px;
+    width:1215px;
+    float:left;
+    margin-left:1px;
+    margin-top:-3px;
+    box-shadow:1px 1px 1px 1px #00000029;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.box3
+{
+   border:1px#B5B5B5;
+   border-color:#B5B5B5;
+   height:50px;
+   width:300px;
+   margin-left:25px;
+   margin-top:-5px;
+   box-shadow:1px 1px 1px 1px  #00000029;
+   border-radius:2px;
+}
+.box4
+{
+   border:1px#B5B5B5;
+   border-color:#B5B5B5;
+   height:50px;
+   width:200px;
+   margin-left:25px;
+   margin-top:-5px;
+   box-shadow:1px 1px 1px 1px  #00000029;
+   border-radius:2px;
+}
+.box5
+{
+   border:1px#B5B5B5;
+   border-color:#B5B5B5;
+   height:50px;
+   width:200px;
+   margin-left:25px;
+   margin-top:-5px;
+   box-shadow:1px 1px 1px 1px  #00000029;
+   border-radius:2px;
+}
+.box6
+{
+   border:1px#B5B5B5;
+   border-color:#B5B5B5;
+   height:50px;
+   width:200px;
+   margin-left:25px;
+   margin-top:10px;
+   box-shadow:1px 1px 1px 1px  #00000029;
+   border-radius:2px;
+}
+.box7
+{
+    
+    border:1px#F7F7F7;
+    border-color:#F7F7F7 ;
+    background-color:#FCFCFC ;
+    height:50px;
+    width:1215px;
+    float:left;
+    margin-left:1px;
+    margin-top:25.2px;
+    box-shadow:1px 1px 1px 1px #00000029;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.cancel
+       {
+           padding-left:20px;
+           margin-top:50px;
+           padding-top:200px;
+       }
+       button
+       {
+   
+           background-color: #32BDD2;
+           color: white;
+           border:none;
+           border-radius: 20px;
+           margin: 10px;
+           width:120px;
+           height:40px;
+           margin-top:10px;
+           padding-top: 5px;
+      
+       }
+       .button
+       {
+           padding-right: 200px;
+           padding-top: 25px;
+           padding-left: -0.5px;
+           margin-left:-1px;
+           margin-top:-5px;
+       }
+       #p
+       {
+           cursor: pointer;
+       }
+       #q
+       {
+           cursor: pointer;
+       }
+       #j
+       {
+           cursor: pointer;
+       }

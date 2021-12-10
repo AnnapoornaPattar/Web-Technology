@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Loginpage27</title>
+        <link rel="stylesheet" type="text/css" href="Loginpage27.css">
+    </head>
+    <body>
+        <script>
+            function init()
+            {
+                location.href="loginpage26.html";
+                document.getElementById("p").style.cursor="pointer";
+            }
+        </script>
+        <script>
+            function func()
+            {
+                location.href="Loginpage28.html";
+                document.getElementById("q").style.cursor="pointer";
+            }
+        </script>
+        <div class="box">
+            <img src="line - Copy.png" alt="burger" style="margin-left: 1px;height:50px;width:50px;">
+            <div class="box1">
+                <div class="people">
+                    <h2 style="margin-left: 40px;margin-top:15px;color:#424242">Add People</h2>
+                </div>
+                <div class="search">
+                    <label><input type="search" placeholder="Search" style="width:500px; height:30px;border-radius:20px;color:#909090;margin-left: 350px;margin-top:18.5px;padding-top: 10px"></label>
+                    <img src="r.png" alt="search" style="color:#B5B5B5;margin-left:-35px;height:20px;width:20px;margin-top:21.5px;padding-top: 3px">
+                </div>
+            </div>
+        </div> 
+        <div class="box2"><br><br>
+            <img src="r.png" alt="search" style="height:50px;width:50px;margin-left:700px;margin-top:100px">
+            <p style="color:#747474;margin-left:680px;margin-top:25px">No Results Found</p>
+            <p style="color:#909090;margin-left:600px;margin-top:25px">We can’t find any item matching your search</p>
+        </div>   
+        <div class="box3">
+            <div class="cancel">
+                <a href="Loginpage26.html">
+                 <h3 id="p" onclick="init()" style="color:#595959;margin-left:300px;margin-top:-185px"><u>CANCEL</u></h3>
+                </a> 
+                <div class="box4">
+                    <p style="color:#707070;margin-left:8px;margin-top:10px">None selected</p>
+                </div>
+            </div>
+            
+            <div class="button">
+                <a href="Loginpage28.html">
+                 <button type="button" id="q" onclick="func()" style="color:#FFFFFF;margin-left:1200px;margin-top:-210px"  >DONE</button>
+                </a> 
+            </div>     
+        </div>
+        
+            
+    </body>
+</html>

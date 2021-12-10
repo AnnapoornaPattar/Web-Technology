@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    }
+    /* .box
+        {
+            position: absolute;
+            background-color: #F6F8F9;
+            border:1px solid #F6F8F9;
+            float: center;
+            width: 100%;
+    
+            box-shadow: 1px 1px #f1f0f0;
+    
+           
+        } */
+       
+        body {
+            font-family: "Roboto";
+            background: #F6F8F9;
+            /* border: 1px solid red; */
+          }
+         
+        .whole
+        {
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            align-content:center ;
+        }
+    
+        .box2
+        {
+            margin:auto;
+            width: 96%;
+            margin-top:2%;
+       
+            margin-bottom:1%;
+            background: #FFFFFF;
+            box-shadow: 1px 1px #f1f0f0;
+            border-radius: 10px;
+       
+        }
+        #p
+        {
+          cursor: pointer;
+        }
+       
+        .login
+        {
+            margin-left:-200px;
+            padding-bottom: 3%;
+            display: flex;
+            justify-content: center;
+            padding-top:3%;
+            color:#595959;
+        }
+       
+        .email
+        {
+        padding-left: 40px;
+        }
+        .textbox1
+        {
+            padding-left: 40px;
+        }
+        .mm
+        {
+        padding-bottom: 30px;
+        color:#505050;
+        }
+        .password
+        {
+        padding-right: 18%;
+        color:#505050;
+       
+        }
+        .textbox2
+        {
+            padding-left: 40px;
+           
+        }
+     
+    
+        .checkbox
+        {
+            display: flex;
+            width:25%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            color: #505050;
+            padding-top: 2%;
+        }
+       
+        .fp
+        {
+            padding-left: 40px;
+        }
+    
+    
+        button
+        {
+    
+            background-color: #32BDD2;
+            color: white;
+            border:none;
+            border-radius: 20px;
+            margin: 10px;
+            width:120px;
+            height:40px;
+       
+        }
+        .button
+        {
+            padding-right: 260px;
+            padding-top: 20px;
+            padding-left: 60px;
+        }
+        .box4
+        {
+            position: absolute;
+            background-color: #F6F8F9;
+            margin-left: 350px;
+            border:1px solid grey;
+            float: center;
+            width: 50%;
+            padding:5%;
+     
+        }
+        #p
+        {
+            cursor: pointer;
+        }
+        #q
+        {
+            cursor: pointer;
+        }
+    
+        button:hover {
+            opacity: 0.8;
+          }

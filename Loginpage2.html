@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Loginpage2</title>
+        <link rel="stylesheet" type="text/css" href="Loginpage2.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <script>
+
+            function init()
+            {
+                location.href="Loginpage2.html";
+                document.getElementById("p").style.cursor="pointer";
+            }
+        </script>
+        <script>
+            function func()
+            {
+                location.href="Loginpage3.html";
+                document.getElementById("q").style.cursor="pointer";
+            }
+        </script>
+        <div class="box">
+            <div class="box1">
+                <div class="login">
+                    <h1><b>Login</b></h1>
+                </div>
+                    
+                    <div class="emaibox">
+                        <label><input type="email" placeholder="Email or Phone Number" style="width:350px; height:50px;border-radius:10px;color:#747474;margin-left: 450px;margin-top:20px"></label>
+                        
+                     </div>
+                     <img src="request-icons-07.png" alt="request" style="color:#BF574A;margin-left:450px;width:15px;height:15px">
+                        <span style="color:#BF574A">This field is required</span>
+                     <div class="password">
+                        <label><input type="password" placeholder="Password" style="width:350px; height:50px;border-radius:10px;color:#747474;margin-left: 335px;margin-top:20px"></label>
+                        <i class="fa fa-eye-slash" ></i>
+                    </div>
+                    <img src="request-icons-07.png" alt="request" style="color:#BF574A;margin-left:450px;width:15px;height:15px">
+                        <span style="color:#BF574A">This field is required</span><br>
+                    <div class="forgotpass">
+                        <a href="Loginpage3.html">
+                             <p style="color: #747474; margin-left:645px">Forgot password?</p>
+                       </a>
+                    </div>
+                    <div class="button">
+                         <a href="Loginpage3.html">
+                             <button type="button" id="p" onclick="init()" style="color:#FFFFFF;margin-left:550px"  >LOGIN</button>
+                         </a>
+                    </div>
+            </div>
+
+        </div>
+    </body>
+    
+</html>

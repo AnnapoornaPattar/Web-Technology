@@ -1,0 +1,16 @@
+.firstbox
+{
+border:1px solid black;
+width:50%;
+height:500px;
+margin-left:20%;
+margin-top:5%
+}
+.secondbox
+{
+border:1px solid black;
+width:50%;
+height:200px;
+margin-left:22%;
+margin-top:20%;
+}
